@@ -1,0 +1,207 @@
+html, body {
+	height:100%;
+	width:100%;
+	margin: 0;
+	overflow:hidden;
+}
+
+body {
+	background: white;
+	text-align: left;
+	text-decoration: none;
+}
+#topBanner{
+	background: black;
+	height: 40px;
+	width: 826px;
+	position: fixed;
+	z-index: 2;
+}
+#summariesListHeader{
+	color: white;
+	font-family: kalinga;
+	font-size: 27px;
+	text-decoration: none;
+	position: absolute;
+	float: left;
+}
+#returnLink{
+	font-family: Kalinga;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	position: absolute;
+	margin-left: 82%;
+	margin-top: -8px;
+}
+#searchBar{
+	float: right;
+	margin-top: 7px;
+	margin-right: 10px;
+}
+#rightBanner1{
+	background: #009999;
+	float:right;
+	height: 100%;
+	right: 0;
+	top: 0;
+	width: 225px;
+	z-index: 2;
+	position: relative;
+}
+#rightBanner1Content{
+	float:right;
+	font-family: Kalinga;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	height: 100%;
+	right: 0;
+	width: 225px;
+	z-index: 2;
+	overflow:auto;
+	padding: 0;
+	position: relative;
+}
+#rightBanner2{
+	background: #006363;
+	float:right;
+	height: 100%;
+	width: 160px;
+	z-index: 2;
+	position: relative;
+}
+#rightBanner2Content{
+	float:right;
+	font-family: Kalinga;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	height: 100%;
+	right: 5%;
+	width: 200px;
+	z-index: 2;
+	overflow:auto;
+	position: relative;
+}
+#rightBanner3{
+	background: #006363;
+	float:right;
+	height: 100%;
+	width: 160px;
+	z-index: 2;
+	position: relative;
+}
+#rightBanner3Content{
+	float:right;
+	font-family: Kalinga;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	height: 100%;
+	right: 5%;
+	width: 200px;
+	z-index: 2;
+	overflow:auto;
+	padding: 0;
+	position: relative;
+}
+#courseList{
+	list-style: none;
+	text-align: right;
+}
+.courseListItem{
+	color: white;
+	text-decoration: none;
+}
+#userList{
+	list-style: none;
+	text-align: right;
+}
+.userListItem{
+	color: white;
+	text-decoration: none;
+}
+#classList{
+	list-style: none;
+	text-align: right;
+}
+.classListItem{
+	color: white;
+	text-decoration: none;
+}
+textarea{
+	max-width: 216px;
+}
+.errorMessage{
+	color: red;
+}
+#summaryTitle{
+	font-family: Kalinga;
+	font-size: 18px;
+	margin-top: -20px;
+}
+#summaryDateAndUser{
+	margin-top: -62px;
+	font-style: italic;
+	font-size: 16px;
+}
+#summary{
+	margin-top: -50px;
+	font-size: 16px;
+}
+.summaryBoxGrey{
+	background: #dddddd;
+	color: black;
+	font-family: kalinga;
+	position: relative;
+}
+.summaryBoxWhite{
+	background: #fff;
+	color: black;
+	font-family: kalinga;
+	position: relative;
+}
+#authorSelect{
+	width: 215px;
+}
+#courseSelect{
+	width: 216px;
+}
+#summariesList{
+	overflow:scroll;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	direction: rtl;
+	top: 40px;
+}
+#noSummariesMessage{
+	background: #fff;
+	color: black;
+	font-family: kalinga;
+	position: relative;
+	text-align: left;
+	top: 10%;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 7x;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 7px;
+    background: #009999;
+	 opacity: 0.8;
+    -webkit-box-shadow: rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #000;
+	 opacity: 0.8;
+}
+
+
